@@ -578,7 +578,7 @@
     text-align: center;
   }
   .pic__card {
-    grid-column: span 2;
+    grid-column: span 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -587,7 +587,7 @@
             justify-content: center;
   }
   .content__card {
-    grid-column: span 2;
+    grid-column: span 1;
   }
   .fw__section {
     display: -webkit-box;
@@ -608,6 +608,29 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .work__maingrid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card {
+    display: block;
+  }
+  .content__card {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .work__content {
+    width: 246px;
+    margin: 0 auto;
   }
 }
 
