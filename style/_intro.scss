@@ -1,0 +1,45 @@
+.intro__wrapper {
+    max-width: 856px;
+    margin: 0 auto;
+    margin-bottom: 71px;
+    position: relative;
+
+}
+.itnro__img {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.intro__img-thumb {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 609px;
+    bottom: 115px;
+}
+.intro__title {
+    width: 506px;
+    margin-bottom: 40px;
+}
+//todo
+.intro__subtitle {
+    width: 497px;
+    margin-bottom: 38px;
+}
+.download__btn {
+    display: inline-flex;
+    width: 208px;
+    height: 47px;
+    padding: 9px 20px 17px 20px;
+   justify-content: center;
+    background: #FF6464;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29 / 20 * 100%; // lh / fz * 100%
+    color: white;
+    transition: ease 0.3s;
+}
+.download__btn:hover, :active, :focus, :visited {
+    background: #b12929;
+}

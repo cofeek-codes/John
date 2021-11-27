@@ -1,0 +1,44 @@
+@import "_header";
+@import "_footer";
+@import "_fonts";
+@import "_normalize";
+//! imports
+$dc: #21243d;
+//! default color
+.default__title {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: $dc;
+}
+.default__main-text {
+    font-size: 16px;
+    line-height: 23px;
+    color: $dc;
+}
+//! title text styles
+body {
+    font-family: $ff;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: $dc;
+}
+.wrapper {
+    max-width: 856px; //!
+    margin: 0 auto;
+}
+//! desctop__section-title
+.dtop__section-title {
+    font-size: 22px;
+    line-height: 60px;
+    color: $dc;
+}
+.title-of-presentations {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
