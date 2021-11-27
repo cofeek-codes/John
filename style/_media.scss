@@ -42,13 +42,9 @@
         transition: 0.3s linear all;
     }
     .header__nav-active {
-        
-       
-
         transform: translateX(0);
     }
     .header__list-item {
-        
         width: 100%;
         margin-right: 0;
         margin-bottom: 30px;
@@ -63,7 +59,7 @@
     }
     // "fall-out" menu
 
-    //! CLOSING 
+    //! CLOSING
 
     .header__nav-close {
         display: block;
@@ -88,5 +84,97 @@
     .nav-close__line:last-child {
         transform: rotate(-45deg) translateY(-50%);
     }
+}
+
+@media (max-width: 865px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+    .pic__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+    .intro__img-thumb {
+        display: inline-flex;
+        flex-wrap: wrap;
+        position: static;
+        left: 609px;
+        bottom: 115px;
+    }
+    .intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro__title {
+        width: 312px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    .intro__subtitle {
+        width: 328px;
+        margin: 0 auto;
+        margin-bottom: 27px;
+    }
+    .adapt__btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .download__btn {
+        display: block;
+    }
+    .post-card {
+        grid-column: span 2;
+    }
+    .recent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .recent__title {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .recent__title-text {
+        display: flex;
+        margin-right: 0;
+        text-align:center;
+        justify-content: center;
+        width: 105px;
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .recent__view-all {
+        position: absolute;
+        display: none;
+    }
+    .post-card {
+        display: block;
+        
+    }
+    .card__wrapper {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+   .pic__card {
+       grid-column: span 2;
+   }
+   .content__card {
+    grid-column: span 2;
+   }
 }
 
