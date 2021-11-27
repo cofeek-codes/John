@@ -1,8 +1,17 @@
 .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
     height: 82px;
     align-items: center;
     margin-bottom: 158px; 
     padding: 27px 0;
+}
+
+.header__body {
+    position: relative;
+    z-index: 2;
 }
 .header__wrapper {
     max-width: 1043px;
@@ -34,4 +43,8 @@
 }
 .header__list-item-link:hover,:focus,:active {
     color:#FF6464;
+}
+//! BURGER
+.header__burger {
+    display: none;
 }
