@@ -8,6 +8,35 @@
 @import "_fonts";
 @import "_normalize";
 //! imports
+
+// media variables
+$md1: 856 + 12 * 1px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+// media variables
+
+// media requests
+@media (max-width:$md1) {
+    .wrapper {
+        max-width: 970px;
+    }
+}
+@media (max-width:$md2) {
+    .wrapper {
+        max-width: 970px;
+    }
+}
+@media (max-width:$md3) {
+    .wrapper {
+        max-width: none;
+        padding: 0 10px;
+    }
+} 
+// media requests
+
+
+
 $dc: #21243d;
 //! default color
 .default__title {
