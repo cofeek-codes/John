@@ -1,15 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900&display=swap);
 .header {
   width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 999;
   height: 82px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 158px;
   padding: 27px 0;
+}
+
+.header__active {
+  background: #CCC;
 }
 
 .header__body {
@@ -60,10 +61,6 @@
 
 .header__list-item-link:hover, :focus, :active {
   color: #FF6464;
-}
-
-.header__burger {
-  display: none;
 }
 
 .intro__wrapper {
@@ -352,6 +349,48 @@
   text-align: center;
 }
 
+@media (max-width: 960px) {
+  .burger {
+    display: block;
+    width: 40px;
+    height: 28px;
+    position: relative;
+  }
+  .burger__line {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    left: 0;
+  }
+  .burger__line_top {
+    top: 0;
+  }
+  .burger__line_center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .burger__line_bottom {
+    bottom: 0;
+  }
+  .header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .header__nav {
+    display: none;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -438,51 +477,6 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-@media (max-width: 868px) {
-  .wrapper {
-    max-width: 750px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .wrapper {
-    max-width: none;
-    padding: 0 10px;
-  }
-  .header__wrapper {
-    width: 100%;
-  }
-  .header__nav {
-    display: none;
-  }
-  .header__burger {
-    display: block;
-    width: 40px;
-    height: 28px;
-    position: relative;
-  }
-  .burger__line {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: black;
-    left: 0;
-  }
-  .burger__line_top {
-    top: 0;
-  }
-  .burger__line_center {
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  .burger__line_bottom {
-    bottom: 0;
-  }
 }
 
 .default__title {

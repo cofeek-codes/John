@@ -1,12 +1,12 @@
 .header {
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999;
     height: 82px;
     align-items: center;
     margin-bottom: 158px; 
     padding: 27px 0;
+}
+.header__active {
+    background: #CCC;
 }
 
 .header__body {
@@ -43,8 +43,4 @@
 }
 .header__list-item-link:hover,:focus,:active {
     color:#FF6464;
-}
-//! BURGER
-.header__burger {
-    display: none;
 }

@@ -3,6 +3,7 @@
 @import "_recent";
 @import "_featured-works";
 @import "_footer";
+@import "_media";
 @import "_fonts";
 @import "_normalize";
 //! imports
@@ -13,54 +14,6 @@ $md2: 991.98px;
 $md3: 767.98px;
 $md4: 479.98px;
 // media variables
-
-// media requests
-
-@media (max-width:$md1) {
-    .wrapper {
-        max-width: 750px;
-    }
-}
-@media (max-width:$md3) {
-    .wrapper {
-        max-width: none;
-        padding: 0 10px;
-    }
-    .header__wrapper {
-        width: 100%;
-    }
-    .header__nav {
-        display: none;
-    }
-    .header__burger {
-        display: block;
-        width: 40px;
-        height: 28px;
-        position: relative;
-    }
-    .burger__line {
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 2px;
-        background: black;
-        left: 0; //height to center
-    }
-    .burger__line_top {
-        top: 0;
-    }
-    .burger__line_center {
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .burger__line_bottom {
-        bottom: 0;
-    }
-    
-} 
-// media requests
-
-
 
 $dc: #21243d;
 //! default color
