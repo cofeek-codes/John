@@ -4,27 +4,22 @@
 @import "_featured-works";
 @import "_footer";
 @import "_burger";
-@import "_media";
 @import "_fonts";
 @import "_normalize";
 //! imports
 
 // media variables
-$md1: 856 + 12 * 1px;
+$md1: 856 + 12 * 1px; // max-widthContainer + 12px 
 $md2: 991.98px;
 $md3: 767.98px;
 $md4: 479.98px;
 // media variables
 
 // media requests
+
 @media (max-width:$md1) {
     .wrapper {
-        max-width: 970px;
-    }
-}
-@media (max-width:$md2) {
-    .wrapper {
-        max-width: 970px;
+        max-width: 750px;
     }
 }
 @media (max-width:$md3) {
@@ -60,6 +55,7 @@ body {
     color: $dc;
 }
 .wrapper {
+    min-width: 320px;
     max-width: 856px;
     margin: 0 auto;
 }
