@@ -449,7 +449,7 @@
   }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 856px) {
   .wrapper {
     padding: 0 15px;
   }
@@ -520,16 +520,12 @@
   }
   .recent {
     padding-bottom: 38px;
-    display: block;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .recent__title {
     display: -webkit-box;
@@ -556,6 +552,16 @@
   .recent__view-all {
     position: absolute;
     display: none;
+  }
+  .posts__grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .post-card {
     display: block;
@@ -629,7 +635,7 @@
     width: 100%;
   }
   .work__content {
-    width: 246px;
+    width: 344px;
     margin: 0 auto;
   }
 }
