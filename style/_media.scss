@@ -213,3 +213,38 @@
        margin: 0 auto;
    }
 }
+@media (max-width: 380px) {
+    .recent {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post__title {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    .post__date-type {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post__date {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post__project-type {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post__content {
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
