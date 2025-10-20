@@ -59,7 +59,7 @@
   transition: .1s linear;
 }
 
-.header__list-item-link:hover, :focus, :active {
+.header__list-item-link:hover, :focus {
   color: #FF6464;
 }
 
@@ -123,7 +123,7 @@
   transition: ease 0.3s;
 }
 
-.download__btn:hover, :active, :focus, :visited {
+.download__btn:hover, :focus, :visited {
   background: #b12929;
 }
 
